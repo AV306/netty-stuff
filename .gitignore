@@ -1,0 +1,26 @@
+# root
+.settings/
+.project
+.classpath
+
+.gradle/
+build/
+
+.idea/
+.eclipse/
+
+
+# chat-client
+chat-client/.settings/
+chat-client/.project
+chat-client/.classpath
+
+chat-client/build/
+
+
+# chat-server
+chat-server/.settings/
+chat-server/.project
+chat-server/.classpath
+
+chat-server/build/
