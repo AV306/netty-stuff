@@ -1,0 +1,5 @@
+rootProject.name = 'netty'
+include 'tcp-server-test'
+include 'tcp-client-test'
+include 'chat-server'
+include 'chat-client'
