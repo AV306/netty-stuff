@@ -17,7 +17,7 @@ dependencies {
 jar {
 	manifest {
 		attributes(
-			"Main-Class": "av306.project.server.Main"
+			"Main-Class": "av306.chat.client.Main"
 		)
 	}
 }

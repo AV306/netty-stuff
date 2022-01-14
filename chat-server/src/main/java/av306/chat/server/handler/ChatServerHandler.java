@@ -53,7 +53,7 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<String>
 
 		for ( Channel channel : connectedChannels )
 		{
-			channel.writeAndFlush( "<" + ctx + "> " + message  + "\n" );
+			channel.writeAndFlush( message  + "\n" ); // message already contains client name
 		}
 	}
 

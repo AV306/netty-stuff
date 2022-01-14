@@ -28,7 +28,9 @@ public class ChatServer
 	
 	public void run()
 	{
+		// Boss group accepts connections from clients
 		EventLoopGroup bossGroup = new NioEventLoopGroup( 1 );
+		// Worker group handles further communication through channels
 		EventLoopGroup workerGroup = new NioEventLoopGroup();
 
 		// Server bootstrap
